@@ -17,8 +17,8 @@ def to_string(results)
       to_sell << "\n #{key}: #{value.abs.round(2)}"
     end
   end
-  puts to_buy << "\n"
   puts to_sell << "\n"
+  puts to_buy << "\n"
 end
 
 def get_result(diff, rates)
