@@ -12,9 +12,9 @@ def to_string(results)
   results.each do |key, value|
 
     if value < 0
-      to_buy << "\n #{key}: #{value.abs}"
+      to_buy << "\n #{key}: #{value.abs.round(2)}"
     else
-      to_sell << "\n #{key}: #{value.abs}"
+      to_sell << "\n #{key}: #{value.abs.round(2)}"
     end
   end
   puts to_buy << "\n"
