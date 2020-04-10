@@ -8,5 +8,4 @@ balances them by telling wich and how much you need to buy and which and how muc
 
 ### Usage 
 
-Execute `ruby currency_balancer.rb` from the parent folder. 
-
+`ruby main.rb`
